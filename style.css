@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.matrix-rules img {
+.matrix-rules__img {
   width: 100%;
 }
-.matrix-rules .more-inf {
+.matrix-rules__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -35,7 +35,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.adding-tasks__task-row-wrapper {
   display: flex;
 }
 ul {
@@ -67,7 +67,7 @@ button:hover {
 }
 /* Heading */
 h3,
-.for-new-task {
+.adding-tasks__for-new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -93,7 +93,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.for-new-task {
+.adding-tasks__for-new-task {
   display: block;
   margin: 0 0 20px;
 }
